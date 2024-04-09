@@ -463,19 +463,170 @@ header {
         }
     }
 
+    .banner {
+        width: 100%;
+        padding-top: 150px;
+
+        h4 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: autos;
+        }
+
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 60px;
+
+        }
+
+        .content {
+            width: 100%;
+            max-width: 800px;
+            margin: auto;
+            padding-bottom: 200px;
+
+
+            h1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-size: 36px;
+                padding-top: 100px;
+                font-weight: bold;
+            }
+
+            .firstcontent {
+                width: 90%;
+                margin-top: 50px;
+                text-align: center;
+
+            }
+
+            .seccontent {
+                width: 90%;
+                padding-top: 50px;
+                text-align: center;
+
+            }
+        }
+
+        .contact {
+            width: 100%;
+            max-width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            .ban {
+                width: 100%;
+
+                img {
+                    height: 700px;
+                }
+            }
+
+            .inffo {
+                width: 100%;
+
+                h3 {
+                    width: 70%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                p {
+                    max-width: 70%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .inputs {
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    margin: auto;
+                    gap: 10px;
+
+                    #name {
+                        border: none;
+                        height: 40px;
+                        gap: 10px;
+                        border-bottom: 2px solid black;
+                        outline: none;
+                    }
+
+                    #addres {
+                        border: none;
+                        height: 40px;
+                        border-bottom: 2px solid black;
+                        outline: none;
+                    }
+                }
+
+                .meesage {
+                    width: 100%;
+                    padding-top: 40px;
+                    
+                    
+                    .mes {
+                        width: 100%;
+                        height: 50px;
+                        border: none;
+                        border-bottom: 2px solid black;
+                        outline: none;
+                    }
+                    button {
+                        width: 100%;
+                        max-width: 40%;
+                        height: 40px;
+                        margin: auto;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 20px;
+                        cursor: pointer;
+                        font-size: 17px;
+                        background-color: red;
+                        color: white;
+                        border: none;
+                        border-bottom: 3px black;
+                        border-radius: 40px;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+
+
 
 }
+
+
 
 footer {
     width: 100%;
     padding-bottom: 30px;
     padding-top: 70px;
-   
+
     .foot {
         width: 80%;
         margin: auto;
-       display: grid;
-       grid-template-columns: repeat(4, 1fr);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
 
         .info {
 
@@ -485,9 +636,11 @@ footer {
                 font-weight: 600;
 
             }
+
             p {
                 margin-top: 20px;
             }
+
             input {
                 width: 250px;
                 height: 40px;

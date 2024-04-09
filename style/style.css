@@ -355,6 +355,128 @@ header .navbar {
   color: red;
   font-size: 25px;
 }
+.main .banner {
+  width: 100%;
+  padding-top: 150px;
+}
+.main .banner h4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: autos;
+}
+.main .banner img {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+.main .banner .content {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 200px;
+}
+.main .banner .content h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 36px;
+  padding-top: 100px;
+  font-weight: bold;
+}
+.main .banner .content .firstcontent {
+  width: 90%;
+  margin-top: 50px;
+  text-align: center;
+}
+.main .banner .content .seccontent {
+  width: 90%;
+  padding-top: 50px;
+  text-align: center;
+}
+.main .banner .contact {
+  width: 100%;
+  max-width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main .banner .contact .ban {
+  width: 100%;
+}
+.main .banner .contact .ban img {
+  height: 700px;
+}
+.main .banner .contact .inffo {
+  width: 100%;
+}
+.main .banner .contact .inffo h3 {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .banner .contact .inffo p {
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .banner .contact .inffo .inputs {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  gap: 10px;
+}
+.main .banner .contact .inffo .inputs #name {
+  border: none;
+  height: 40px;
+  gap: 10px;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+.main .banner .contact .inffo .inputs #addres {
+  border: none;
+  height: 40px;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+.main .banner .contact .inffo .meesage {
+  width: 100%;
+  padding-top: 40px;
+}
+.main .banner .contact .inffo .meesage .mes {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+}
+.main .banner .contact .inffo .meesage button {
+  width: 100%;
+  max-width: 40%;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 17px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-bottom: 3px black;
+  border-radius: 40px;
+}
 
 footer {
   width: 100%;
