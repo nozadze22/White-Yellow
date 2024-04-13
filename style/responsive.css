@@ -1,0 +1,40 @@
+@media screen and (max-width: 890px) {
+  .main .pics .forpictures {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  footer .foot {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  footer .foot .info {
+    margin: auto;
+  }
+  .pics {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .main .followUs .carousel {
+    display: none;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main {
+    width: 100%;
+  }
+  .main .pics h2 {
+    width: 100%;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 410px) {
+  main .pics .forpictures .takepicture {
+    margin: 0px;
+  }
+  main .pics .forpictures .takepicture1 {
+    margin: 0px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
